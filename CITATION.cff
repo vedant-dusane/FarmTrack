@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset or data pipeline in your research, please cite it as below."
+title: "Indian Cattle & Buffalo Breeds (15-Class) Classification Dataset"
+authors:
+  - family-names: "Dusane"
+    given-names: "Vedant"
+year: 2026
+url: "https://www.kaggle.com/datasets/vedant0dusane/cattle-breed-classification-dataset"
+repository-code: "https://github.com/vedant0dusane/cattle-breed-classification-dataset"
+abstract: "A curated, deduplicated image dataset of 15 Indian cattle and buffalo breeds, engineered from 11 public source datasets into a standardized, zero-leakage, training-ready collection supporting centralized and federated learning."
+keywords:
+  - deep-learning
+  - computer-vision
+  - image-classification
+  - agriculture
+  - cattle-breeds
+  - federated-learning

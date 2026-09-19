@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+tempCodeRunnerFile.py
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.bak
+
+# Backup files
+*_backup.csv
+
+# Large Source Zips & Unzipped raw staging folders
+Zips/
+Unzip-Modified/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Dataset Images (Hosted on Kaggle: https://www.kaggle.com/datasets/vedant0dusane/cattle-breed-classification-dataset)
+Master-Dataset/scrapped_photos/
+Master-Dataset/master_dataset/train/
+Master-Dataset/master_dataset/val/
+Master-Dataset/master_dataset/test/
+Master-Dataset/master_dataset/clients/
+
+# Ignore loose images except charts and assets
+*.jpg
+*.jpeg
+*.png
+!Master-Dataset/statistics/charts/*.png
+!assets/**/*.png
+!assets/**/*.jpg
+!assets/**/*.jpeg

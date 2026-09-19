@@ -1,0 +1,359 @@
+{
+  "total_images": 14443,
+  "num_breeds": 15,
+  "breed_distribution": {
+    "holstein-friesian": 1085,
+    "gir": 993,
+    "sahiwal": 3300,
+    "jersey": 768,
+    "ayrshire": 631,
+    "brown-swiss": 611,
+    "jaffarabadi": 606,
+    "nagori": 608,
+    "nili-ravi": 610,
+    "tharparkar": 1428,
+    "kankrej": 600,
+    "umblachery": 618,
+    "rathi": 853,
+    "red-sindhi": 926,
+    "vechur": 806
+  },
+  "dataset_contribution_overall": {
+    "DS03": 2750,
+    "DS04": 2233,
+    "DS07": 454,
+    "DS08": 1213,
+    "DS11": 2002,
+    "DS02": 2141,
+    "DS05": 627,
+    "DS06": 944,
+    "DS09": 226,
+    "DS10": 1342,
+    "DS01": 511
+  },
+  "dataset_contribution_per_breed": {
+    "ayrshire": {
+      "DS02": 185,
+      "DS03": 203,
+      "DS04": 10,
+      "DS07": 114,
+      "DS11": 119
+    },
+    "brown-swiss": {
+      "DS03": 206,
+      "DS04": 180,
+      "DS07": 113,
+      "DS11": 112
+    },
+    "gir": {
+      "DS02": 198,
+      "DS03": 293,
+      "DS04": 118,
+      "DS05": 94,
+      "DS08": 160,
+      "DS11": 130
+    },
+    "holstein-friesian": {
+      "DS03": 278,
+      "DS04": 246,
+      "DS07": 111,
+      "DS08": 323,
+      "DS11": 127
+    },
+    "jaffarabadi": {
+      "DS01": 322,
+      "DS03": 85,
+      "DS04": 81,
+      "DS08": 96,
+      "DS11": 22
+    },
+    "jersey": {
+      "DS03": 168,
+      "DS04": 150,
+      "DS05": 61,
+      "DS07": 116,
+      "DS08": 198,
+      "DS11": 75
+    },
+    "kankrej": {
+      "DS02": 251,
+      "DS03": 158,
+      "DS04": 3,
+      "DS05": 80,
+      "DS09": 48,
+      "DS11": 60
+    },
+    "nagori": {
+      "DS02": 183,
+      "DS03": 88,
+      "DS04": 99,
+      "DS06": 61,
+      "DS10": 89,
+      "DS11": 88
+    },
+    "nili-ravi": {
+      "DS01": 189,
+      "DS03": 88,
+      "DS04": 98,
+      "DS06": 60,
+      "DS10": 86,
+      "DS11": 89
+    },
+    "rathi": {
+      "DS02": 143,
+      "DS03": 149,
+      "DS04": 159,
+      "DS06": 104,
+      "DS10": 149,
+      "DS11": 149
+    },
+    "red-sindhi": {
+      "DS02": 155,
+      "DS03": 162,
+      "DS04": 168,
+      "DS06": 113,
+      "DS10": 162,
+      "DS11": 166
+    },
+    "sahiwal": {
+      "DS02": 421,
+      "DS03": 439,
+      "DS04": 455,
+      "DS05": 199,
+      "DS06": 307,
+      "DS08": 436,
+      "DS09": 178,
+      "DS10": 428,
+      "DS11": 437
+    },
+    "tharparkar": {
+      "DS02": 212,
+      "DS03": 217,
+      "DS04": 230,
+      "DS05": 193,
+      "DS06": 150,
+      "DS10": 214,
+      "DS11": 212
+    },
+    "umblachery": {
+      "DS02": 255,
+      "DS03": 76,
+      "DS04": 86,
+      "DS06": 51,
+      "DS10": 74,
+      "DS11": 76
+    },
+    "vechur": {
+      "DS02": 138,
+      "DS03": 140,
+      "DS04": 150,
+      "DS06": 98,
+      "DS10": 140,
+      "DS11": 140
+    }
+  },
+  "class_imbalance": {
+    "max_breed": "sahiwal",
+    "max_count": 3300,
+    "min_breed": "kankrej",
+    "min_count": 600,
+    "imbalance_ratio": 5.5,
+    "mean_count_per_breed": 962.9
+  },
+  "source_concentration_flags": {},
+  "resolution_breakdown_per_breed": {
+    "ayrshire": {
+      "small": 261,
+      "medium": 362,
+      "large": 8
+    },
+    "brown-swiss": {
+      "medium": 351,
+      "small": 260
+    },
+    "gir": {
+      "small": 180,
+      "large": 443,
+      "medium": 370
+    },
+    "holstein-friesian": {
+      "medium": 446,
+      "large": 329,
+      "small": 310
+    },
+    "jaffarabadi": {
+      "small": 299,
+      "medium": 157,
+      "large": 150
+    },
+    "jersey": {
+      "medium": 324,
+      "small": 185,
+      "large": 259
+    },
+    "kankrej": {
+      "medium": 258,
+      "large": 268,
+      "small": 74
+    },
+    "nagori": {
+      "small": 226,
+      "medium": 206,
+      "large": 176
+    },
+    "nili-ravi": {
+      "small": 286,
+      "medium": 219,
+      "large": 105
+    },
+    "rathi": {
+      "medium": 364,
+      "large": 287,
+      "small": 202
+    },
+    "red-sindhi": {
+      "medium": 379,
+      "large": 332,
+      "small": 215
+    },
+    "sahiwal": {
+      "medium": 1083,
+      "large": 1705,
+      "small": 512
+    },
+    "tharparkar": {
+      "medium": 543,
+      "large": 571,
+      "small": 314
+    },
+    "umblachery": {
+      "small": 228,
+      "medium": 175,
+      "large": 215
+    },
+    "vechur": {
+      "medium": 346,
+      "large": 298,
+      "small": 162
+    }
+  },
+  "resolution_skew_flags": {
+    "ayrshire": {
+      "small_pct": 0.414,
+      "dataset_avg_small_pct": 0.257
+    },
+    "brown-swiss": {
+      "small_pct": 0.426,
+      "dataset_avg_small_pct": 0.257
+    },
+    "jaffarabadi": {
+      "small_pct": 0.493,
+      "dataset_avg_small_pct": 0.257
+    },
+    "nili-ravi": {
+      "small_pct": 0.469,
+      "dataset_avg_small_pct": 0.257
+    }
+  },
+  "grayscale_pct_per_breed": {
+    "ayrshire": 0.09,
+    "brown-swiss": 0.093,
+    "gir": 0.182,
+    "holstein-friesian": 0.407,
+    "jaffarabadi": 0.304,
+    "jersey": 0.285,
+    "kankrej": 0.095,
+    "nagori": 0.1,
+    "nili-ravi": 0.189,
+    "rathi": 0.048,
+    "red-sindhi": 0.029,
+    "sahiwal": 0.155,
+    "tharparkar": 0.191,
+    "umblachery": 0.157,
+    "vechur": 0.015
+  },
+  "grayscale_overall_pct": 0.162,
+  "grayscale_skew_flags": {
+    "holstein-friesian": {
+      "grayscale_pct": 0.407,
+      "dataset_avg_grayscale_pct": 0.162
+    }
+  },
+  "real_vs_synthetic_per_breed": {
+    "ayrshire": {
+      "real": 631,
+      "synthetic": 0,
+      "real_pct": 1.0
+    },
+    "brown-swiss": {
+      "real": 611,
+      "synthetic": 0,
+      "real_pct": 1.0
+    },
+    "gir": {
+      "real": 993,
+      "synthetic": 0,
+      "real_pct": 1.0
+    },
+    "holstein-friesian": {
+      "real": 1085,
+      "synthetic": 0,
+      "real_pct": 1.0
+    },
+    "jaffarabadi": {
+      "real": 606,
+      "synthetic": 0,
+      "real_pct": 1.0
+    },
+    "jersey": {
+      "real": 768,
+      "synthetic": 0,
+      "real_pct": 1.0
+    },
+    "kankrej": {
+      "real": 503,
+      "synthetic": 97,
+      "real_pct": 0.838
+    },
+    "nagori": {
+      "real": 359,
+      "synthetic": 249,
+      "real_pct": 0.59
+    },
+    "nili-ravi": {
+      "real": 329,
+      "synthetic": 281,
+      "real_pct": 0.539
+    },
+    "rathi": {
+      "real": 330,
+      "synthetic": 523,
+      "real_pct": 0.387
+    },
+    "red-sindhi": {
+      "real": 375,
+      "synthetic": 551,
+      "real_pct": 0.405
+    },
+    "sahiwal": {
+      "real": 1540,
+      "synthetic": 1760,
+      "real_pct": 0.467
+    },
+    "tharparkar": {
+      "real": 555,
+      "synthetic": 873,
+      "real_pct": 0.389
+    },
+    "umblachery": {
+      "real": 287,
+      "synthetic": 331,
+      "real_pct": 0.464
+    },
+    "vechur": {
+      "real": 318,
+      "synthetic": 488,
+      "real_pct": 0.395
+    }
+  }
+}
